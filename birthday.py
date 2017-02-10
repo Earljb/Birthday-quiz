@@ -44,53 +44,53 @@ year=input("And what year were you born in, " +name+ "? ")
 
 day=input("And the day? ")
 
-if month in ["June", "July", "August"] and year <1980:
+if month in ["June","July","August"] and year <1980:
     print(+name+ ", you are a summer baby of the stone age.")
     
-elif month in ["June", "July", "August"] and year >1980 and year <=1990:
+elif month in ["June","July","August"] and year >1980 and year <=1990:
     print(+name+ ", you are a summer baby of the eighties.")
     
-elif month in ["June", "July", "August"] and year >1990 and year <=2000:
+elif month in ["June","July","August"] and year >1990 and year <=2000:
     print(+name+ ", you are a summer baby of the nineties.")
     
-else month in ["June", "July", "August"] and year >2000:
+else month in ["June","July","August"] and year >2000:
     print(+name+ ", you are a summer baby of the two thousands.")
     
     
-if month in ["September", "October", "November"] and year <1980:
+if month in ["September","October","November"] and year <1980:
     print(+name+ ", you are a fall baby of the stone age.")
     
-elif month in ["September", "October", "November"] and year >1980 and year <1990:
+elif month in ["September","October","November"] and year >1980 and year <1990:
     print(+name+ ", you are a fall baby of the eighties.")
     
-elif month in ["September", "October", "November"] and year >1990 and year <2000:
+elif month in ["September","October","November"] and year >1990 and year <2000:
     print(+name+ ", you are a fall baby of the nineties.")
     
-else month in ["September", "October", "November"] and year >2000:
+else month in ["September","October","November"] and year >2000:
     print(+name+ ", you are a fall baby of the two thousands.")
     
     
-if month in ["December", "January", "February"] and year <1980:
+if month in ["December","January","February"] and year <1980:
     print(+name+ ", you are a winter baby of the stone age.")
     
-elif month in ["December", "January", "February"] and year >1980 and year <1990:
+elif month in ["December","January","February"] and year >1980 and year <1990:
     print(+name+ ", you are a winter baby of the eighties.")
     
-elif month in ["December", "January", "February"] and year >1990 and year <2000:
+elif month in ["December","January","February"] and year >1990 and year <2000:
     print(+name+ ", you are a winter baby of the nineties.")
     
-else month in ["December", "January", "February"] and year >2000:
+else month in ["December","January","February"] and year >2000:
     print(+name+ ", you are a winter baby of the two thousands.")
     
     
-if month in ["March", "April", "May"] and year <1980:
+if month in ["March","April","May"] and year <1980:
     print(+name+ ", you are a winter baby of the stone age.")
     
-elif month in ["March", "April", "May"] and year >1980 and year <1990:
+elif month in ["March","April","May"] and year >1980 and year <1990:
     print(+name+ ", you are a winter baby of the eighties.")
     
-elif month in ["March", "April", "May"] and year >1990 and year <2000:
+elif month in ["March","April","May"] and year >1990 and year <2000:
     print(+name+ ", you are a winter baby of the nineties.")
     
-else month in ["March", "April", "May"] and year >2000:
+else month in ["March","April","May"] and year >2000:
     print(+name+ ", you are a winter baby of the two thousands.")
