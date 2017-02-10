@@ -43,3 +43,41 @@ month=input("Hi " +name+", what was the name of the month you were born in? ")
 year=input("And what year were you born in, " +name+ "? ")
 
 day=input("And the day? ")
+
+if month in ["June", "July", "August"] and year <1980:
+    print(+name+ ", you are a summer baby of the stone age.")
+    
+if month in ["June", "July", "August"] and year >1980 and year <=1990:
+    print(+name+ ", you are a summer baby of the eighties.")
+    
+if month in ["June", "July", "August"] and year >1990 and year <=2000:
+    print
+    
+if month in ["June", "July", "August"] and year >2000:
+    print(+name+ ", you are a summer baby of the two thousands.")
+    
+    
+if month in ["September", "October", "November"] and year <1980:
+    print(+name+ ", you are a fall baby of the stone age.")
+    
+if month in ["September", "October", "November"] and year >1980 and year <1990:
+    print(+name+ ", you are a fall baby of the eighties.")
+    
+if month in ["September", "October", "November"] and year >1990 and year <2000:
+    print(+name+ ", you are a fall baby of the nineties.")
+    
+if month in ["September", "October", "November"] and year >2000:
+    print(+name+ ", you are a fall baby of the two thousands.")
+    
+    
+if month in ["December", "January", "February"] and year <1980:
+    print(+name+ ", you are a winter baby of the stone age.")
+    
+if month in ["December", "January", "February"] and year >1980 and year <1990:
+    print(+name+ ", you are a winter baby of the eighties.")
+    
+if month in ["December", "January", "February"] and year >1990 and year <2000:
+    print(+name+ ", you are a winter baby of the nineties.")
+    
+if month in ["December", "January", "February"] and year >2000:
+    print(+name+ ", you are a winter baby of the two thousands.")
