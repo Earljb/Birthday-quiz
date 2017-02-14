@@ -36,6 +36,15 @@ from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
+if todaymonth == [3, 4, 5]:
+    month is winter
+if todaymonth ==[6, 7, 8]:
+    month is summer
+if todaymonth == [9, 10, 11]:
+    month is fall
+if todaymonth == [12, 1, 2]:
+    month is winter
+
 name=input("Hello,  what is your name? ")
 
 month=input("Hi " +name+", what was the name of the month you were born in? ")
@@ -44,53 +53,5 @@ year=input("And what year were you born in, " +name+ "? ")
 
 day=input("And the day? ")
 
-if month in ["June","July","August"] and year <1980:
-    print(+name+ ", you are a summer baby of the stone age.")
-    
-elif month in ["June","July","August"] and year >1980 and year <=1990:
-    print(+name+ ", you are a summer baby of the eighties.")
-    
-elif month in ["June","July","August"] and year >1990 and year <=2000:
-    print(+name+ ", you are a summer baby of the nineties.")
-    
-else month in ["June","July","August"] and year >2000:
-    print(+name+ ", you are a summer baby of the two thousands.")
-    
-    
-if month in ["September","October","November"] and year <1980:
-    print(+name+ ", you are a fall baby of the stone age.")
-    
-elif month in ["September","October","November"] and year >1980 and year <1990:
-    print(+name+ ", you are a fall baby of the eighties.")
-    
-elif month in ["September","October","November"] and year >1990 and year <2000:
-    print(+name+ ", you are a fall baby of the nineties.")
-    
-else month in ["September","October","November"] and year >2000:
-    print(+name+ ", you are a fall baby of the two thousands.")
-    
-    
-if month in ["December","January","February"] and year <1980:
-    print(+name+ ", you are a winter baby of the stone age.")
-    
-elif month in ["December","January","February"] and year >1980 and year <1990:
-    print(+name+ ", you are a winter baby of the eighties.")
-    
-elif month in ["December","January","February"] and year >1990 and year <2000:
-    print(+name+ ", you are a winter baby of the nineties.")
-    
-else month in ["December","January","February"] and year >2000:
-    print(+name+ ", you are a winter baby of the two thousands.")
-    
-    
-if month in ["March","April","May"] and year <1980:
-    print(+name+ ", you are a winter baby of the stone age.")
-    
-elif month in ["March","April","May"] and year >1980 and year <1990:
-    print(+name+ ", you are a winter baby of the eighties.")
-    
-elif month in ["March","April","May"] and year >1990 and year <2000:
-    print(+name+ ", you are a winter baby of the nineties.")
-    
-else month in ["March","April","May"] and year >2000:
-    print(+name+ ", you are a winter baby of the two thousands.")
+if todaymonth == [12, 1, 2]:
+    print("winter")
