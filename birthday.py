@@ -47,11 +47,12 @@ if todaymonth == [12, 1, 2]:
 
 name=input("Hello,  what is your name? ")
 
-month=input("Hi " +name+", what was the name of the month you were born in? ")
+todaymonth=float(input("Hi " +name+", what was the name of the month you were born in? "))
 
-year=input("And what year were you born in, " +name+ "? ")
+year=float(input("And what year were you born in, " +name+ "? "))
 
 day=input("And the day? ")
 
-if todaymonth == [12, 1, 2]:
-    print("winter")
+
+if todaymonth is [12, 1, 2] and year <1980:
+    print(+name+ ", you are a winter baby of the stone age.")
