@@ -54,5 +54,5 @@ year=float(input("And what year were you born in, " +name+ "? "))
 day=input("And the day? ")
 
 
-if todaymonth is [12, 1, 2] and year <1980:
+if todaymonth in [12, 1, 2] and year <1980:
     print(+name+ ", you are a winter baby of the stone age.")
