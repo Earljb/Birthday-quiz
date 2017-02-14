@@ -36,23 +36,36 @@ from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
-if todaymonth == [3, 4, 5]:
-    month is winter
-if todaymonth ==[6, 7, 8]:
-    month is summer
-if todaymonth == [9, 10, 11]:
-    month is fall
-if todaymonth == [12, 1, 2]:
-    month is winter
 
 name=input("Hello,  what is your name? ")
 
-todaymonth=float(input("Hi " +name+", what was the name of the month you were born in? "))
+month=input("Hi " +name+", what was the name of the month you were born in? ")
 
-year=float(input("And what year were you born in, " +name+ "? "))
+year=int(input("And what year were you born in, " +name+ "? "))
 
-day=input("And the day? ")
+day=int(input("And the day? "))
 
-
-if todaymonth in [12, 1, 2] and year <1980:
-    print(+name+ ", you are a winter baby of the stone age.")
+if month in ["December", "January", "February"]:
+    season = "winter"
+elif month == ["July", "June", "August"]:
+    season = "summer"
+elif month in ["September", "October", "November"]:
+    season = "fall"
+else:
+    season = "winter"
+    
+if year >= 2000:
+    era = "two thousands"
+elif year >= 1990 and year < 2000:
+    era = "nineties"
+elif year >= 1980 and year < 1990:
+    era = "eighties"
+else:
+    era = "stone age"
+    
+if month == "October" and day == 31:
+    print("You were born on Halloween!")
+elif month == todaymonth and day == todayday:
+    print("Happy Birthday!")
+else:
+    print(+name+ ", you are a " +season+ " baby of the " +era+ ".")
