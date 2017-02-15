@@ -61,7 +61,7 @@ elif year >= 1990 and year < 2000:
 elif year >= 1980 and year < 1990:
     era = "eighties"
 else:
-    era = "stone age"
+    era = "Stone Age"
     
 if month == "October" and day == 31:
     print("You were born on Halloween!")
