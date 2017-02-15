@@ -65,7 +65,7 @@ else:
     
 if month == "October" and day == 31:
     print("You were born on Halloween!")
-elif month == todaymonth and day == todayday:
+elif month == month_name[todaymonth] and day == datetime.today().day:
     print("Happy Birthday!")
 else:
     print(name+ ", you are a " +season+ " baby of the " +era+ ".")
